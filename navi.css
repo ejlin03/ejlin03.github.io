@@ -1,0 +1,62 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    list-style-type: none;
+    background-color: #E1A679;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    position: relative;
+    text-align: center;
+}
+
+
+ul.menu a {
+    background-color: #E1A679;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+/* 滑鼠滑入按鈕變色*/
+ul.menu a:hover {
+    background-color: #985F2A;
+    color: #fff;
+}
+
+/* 滑鼠滑入按鈕保持變色*/
+ul.menu li:hover>a {
+    background-color: #985F2A;
+    color: #fff;
+}
+
+/* 不顯示下拉式選單*/
+ul.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+/* 滑鼠滑入時顯示下拉式選單*/
+ul.menu li:hover>ul {
+    display: block;
+}
+
+li a.home {
+    background-color: #985F2A;
+}
