@@ -1,0 +1,51 @@
+div ul {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    list-style-type: none;
+    background-color: #ADD8E6;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    position: relative;
+    text-align: center;
+}
+
+
+ul.menu a {
+    background-color: #ADD8E6;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+/* 滑鼠滑入按鈕變色*/
+ul.menu a:hover {
+    background-color: #1a1629;
+    color: #fff;
+}
+
+/* 滑鼠滑入按鈕保持變色*/
+ul.menu li:hover>a {
+    background-color: #1a1629;
+    color: #fff;
+}
+
+li a.home {
+    background-color: #1a1629;
+    color: #fff;
+}

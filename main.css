@@ -1,0 +1,99 @@
+.noto1 {
+    font-family: "Noto Sans TC", serif;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1a1629;
+}
+
+.noto2 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #1a1629;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+h1 {
+    font-size: 55px;
+    margin-top: 120px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+h1.extra {
+    font-size: 55px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+
+p {
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+p.border {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+a:link {
+    color: #0492C2;
+}
+
+ul.profile {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    list-style-type: circle;
+    margin-top: 20px;
+    margin-left: 250px;
+    /*border: 2px solid black;*/
+}
+
+img.profile {
+    float: right;
+    width: 35%;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+img.content {
+    float: right;
+    width: 35%;
+    margin-top: 120px;
+    margin-right: 110px;
+}
+
+#TFGSO {}
+
+#BOOK {}
+
+#KYUDO {}
+
+#TUTOR {}
+
+#GEOFORCE {}
